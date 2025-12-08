@@ -20,7 +20,7 @@ body {
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-    width: 100%;
+    width: 50%;
     max-width: 480px;
 }
 
@@ -45,6 +45,7 @@ body {
 /* Form rows */
 .input-row {
     display: flex;
+    width: 100%;
     align-items: center;
     margin-bottom: 15px;
     flex-wrap: wrap; /* allows wrapping on very small screens */
@@ -140,4 +141,5 @@ i{
     button.button {
         font-size: 0.9rem;
     }
+
 }
