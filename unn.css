@@ -1,0 +1,143 @@
+/* Reset defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 480px;
+}
+
+/* Header with green background */
+.header {
+    background-color: #2e7d32;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    margin-bottom: 5px;
+}
+
+.header p {
+    font-size: 0.95rem;
+}
+
+/* Form rows */
+.input-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap; /* allows wrapping on very small screens */
+}
+
+.input-row label {
+    flex: 0 0 120px; /* fixed width for label */
+    margin-right: 10px;
+    font-weight: 600;
+    color: #2e7d32;
+}
+
+.input-row input,
+.input-row select {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #b2dfdb;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    width: 10%;
+}
+
+.input-row input:focus,
+.input-row select:focus {
+    outline: none;
+    border-color: #2e7d32;
+    box-shadow: 0 0 5px rgba(46, 125, 50, 0.5);
+}
+
+/* Button */
+button.button {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #2e7d32;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+button.button:hover {
+    background-color: #1b5e20;
+}
+
+/* Result box */
+#resultBox {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #1b5e20;
+    padding-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: black;
+}
+a{
+    color: red;
+}
+i{
+    color: black;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+    .input-row label {
+        flex: 0 0 100px;
+        margin-bottom: 5px;
+    }
+
+    .input-row input,
+    .input-row select {
+        flex: 1 0 100%;
+    }
+}
+
+@media (max-width: 380px) {
+    .container {
+        padding: 15px;
+    }
+
+    button.button {
+        font-size: 0.9rem;
+    }
+}

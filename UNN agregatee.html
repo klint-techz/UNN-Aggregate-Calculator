@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNN Aggregate Checker</title>
+<link rel="stylesheet" href="unn.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <h2>UNN Aggregate Calculator</h2>
+    <p>Compute your grades and get your aggregate instantly</p>
+  </div>
+
+  <div class="input-row">
+    <label>JAMB Score</label>
+    <input id="jambScore" type="number" placeholder="Enter JAMB score">
+  </div>
+
+  <div class="input-row">
+    <label>Subject 1</label>
+    <select id="g1">
+      <option value="90">A1</option>
+      <option value="80">B2</option>
+      <option value="70">B3</option>
+      <option value="60">C4</option>
+      <option value="50">C5</option>
+      <option value="40">C6</option>
+      <option value="0">D7</option>
+      <option value="0">E8</option>
+      <option value="0">F9</option>
+    </select>
+  </div>
+
+  <div class="input-row">
+    <label>Subject 2</label>
+    <select id="g2">
+      <option value="90">A1</option>
+      <option value="80">B2</option>
+      <option value="70">B3</option>
+      <option value="60">C4</option>
+      <option value="50">C5</option>
+      <option value="40">C6</option>
+      <option value="0">D7</option>
+      <option value="0">E8</option>
+      <option value="0">F9</option>
+    </select>
+  </div>
+
+  <div class="input-row">
+    <label>Subject 3</label>
+    <select id="g3">
+      <option value="90">A1</option>
+      <option value="80">B2</option>
+      <option value="70">B3</option>
+      <option value="60">C4</option>
+      <option value="50">C5</option>
+      <option value="40">C6</option>
+      <option value="0">D7</option>
+      <option value="0">E8</option>
+      <option value="0">F9</option>
+    </select>
+  </div>
+
+  <div class="input-row">
+    <label>Subject 4</label>
+    <select id="g4">
+      <option value="90">A1</option>
+      <option value="80">B2</option>
+      <option value="70">B3</option>
+      <option value="60">C4</option>
+      <option value="50">C5</option>
+      <option value="40">C6</option>
+      <option value="0">D7</option>
+      <option value="0">E8</option>
+      <option value="0">F9</option>
+    </select>
+  </div>
+
+  <div class="input-row">
+    <label>No of sitting</label>
+    <select id="sitting">
+      <option value="1">1</option>
+      <option value="2">2</option>
+    </select>
+  </div>
+   <div id="resultBox"></div>
+
+  <button class="button" onclick="calculate()">Calculate Aggregate</button>
+
+  <div class="footer">
+    <i>developed</i> by <b><strong> <a href="https://wa.me/9016588844">Klint-Techz</a> </strong></b>
+  </div>
+</div>
+<script src="unn.js"></script>
+</body>
+</html>
