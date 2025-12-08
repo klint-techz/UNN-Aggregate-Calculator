@@ -44,7 +44,7 @@ body {
 
 /* Form rows */
 .input-row {
-    display: flex;
+    display: inline;
     width: 50%;
     align-items: center;
     margin-bottom: 15px;
@@ -143,5 +143,6 @@ i{
     }
 
 }
+
 
 
