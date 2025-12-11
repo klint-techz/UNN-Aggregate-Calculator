@@ -5,7 +5,7 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     
 }
 .container{
@@ -40,6 +40,128 @@ body{
     text-align: center;
     margin-left: -30px;
     margin-right: -31px;
+    color: white;
+
+}
+.unnAgg{
+    padding-top: 17px;
+    font-family: 'inter',sans-serif;
+    font-size: 24px;
+}
+.unnAggp{
+    margin-top: -12px;
+    padding-bottom: 15px;
+    font-family: 'lato',sans-serif;
+    font-size: 13px;
+}
+#g4, #g1, #g2, #g3, #sitting{
+    width: 70%;
+}
+.div1 {
+    display: flex;
+    gap: 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.div1 #g1, #g2, #g3, #g4, #sitting{
+    border-radius: 4px;
+    height: 37px;
+}
+.div2{
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+footer{
+    text-align: center;
+    padding-top: 10px;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+.olevelLabel{
+    text-align: center;
+    padding-left: 135px;
+    margin-bottom: -4px;
+}
+
+.jamb input{
+    
+    width: 95%;
+    border-radius: 4px;
+    height: 30px;
+    display: flex;
+    padding-left: 10px;
+}
+.again{
+    text-decoration: underline;
+    margin-top: 700px;
+}
+label{
+    font-family: 'serif',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    width: 120px;
+    margin-top: 7px;
+}
+#resultBox {
+    display: none;
+     background-color: #0B8A3B;
+     padding: 10px;
+     border-radius: 10px;
+     margin-top: 10px;
+     color: white;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 18px;
+    font-family: 'inter',sans-serif;
+    font-size: 14px;
+}
+
+
+/*body{
+    background: linear-gradient(135deg, #056837, #0FA34A);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    
+}
+.container{
+    background-color: white;
+    width: 90%;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 300px;
+    justify-content: center;
+     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
+}
+#btn{
+    background-color: #0B8A3B;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    height: 45px;
+    color: white;
+    font-family: 'inter',sans-serif;
+    font-size: 15px;
+    border: none;
+}
+.header{
+    background: #0B8A3B;
+    margin-top: -40px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    margin-left: -20px;
+    margin-right: -21px;
     color: white;
 
 }
@@ -116,4 +238,5 @@ label{
     font-family: 'inter',sans-serif;
     font-size: 14px;
 }
+
 
