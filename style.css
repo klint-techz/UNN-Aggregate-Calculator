@@ -9,7 +9,7 @@ body{
 }
 .container{
     background-color: white;
-    width: 78%;
+    width: 90%;
     padding: 20px;
     border-radius: 15px;
     max-width: 300px;
@@ -36,14 +36,14 @@ body{
     border-radius: 10px 10px 0 0;
     text-align: center;
     margin-left: -20px;
-    margin-right: -20px;
+    margin-right: -21px;
     color: white;
 
 }
 .unnAgg{
     padding-top: 17px;
     font-family: 'inter',sans-serif;
-    font-size: 23px;
+    font-size: 24px;
 }
 .unnAggp{
     margin-top: -12px;
@@ -52,7 +52,7 @@ body{
     font-size: 13px;
 }
 #g4, #g1, #g2, #g3, #sitting{
-    width: 49.8%;
+    width: 60%;
 }
 .div1 {
     display: flex;
@@ -60,15 +60,16 @@ body{
     margin-top: 10px;
     border-radius: 10px;
 }
-.div1 #g1, #g2, #g3, #sitting{
+.div1 #g1, #g2, #g3, #g4, #sitting{
     border-radius: 4px;
-    height: 23px;
+    height: 37px;
 }
 .div2{
     display: flex;
-    gap: 90px;
+    gap: 80px;
     margin-top: 10px;
     border-radius: 10px;
+    width: 100%;
 }
 footer{
     text-align: center;
@@ -89,12 +90,14 @@ a{
     width: 48%;
     margin-left: 55px;
     border-radius: 4px;
-    height: 20px;
+    height: 30px;
 }
 label{
     font-family: 'serif',sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
+    width: 90px;
+    margin-top: 7px;
 }
 #resultBox {
     display: none;
@@ -110,4 +113,3 @@ label{
     font-family: 'inter',sans-serif;
     font-size: 14px;
 }
-
