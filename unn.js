@@ -1,7 +1,7 @@
 function calculate() {
     console.log("Calculate button clicked");
 
-    let jamb = parseFloat(document.getElementById('jambScore').value);
+    let jamb = parseFloat(document.getElementById('jambInput').value);
     let grade1 = parseFloat(document.getElementById('g1').value);
     let grade2 = parseFloat(document.getElementById('g2').value);
     let grade3 = parseFloat(document.getElementById('g3').value);
@@ -22,5 +22,6 @@ function calculate() {
 
     console.log("Total Aggregate:", totalAggregate);
 
-    document.getElementById('resultBox').innerHTML = `Your Aggregate is ${totalAggregate.toFixed(2)}`;
+    document.getElementById('resultBox').style.display = "block";
+    document.getElementById('resultBox').innerHTML = `Your Aggregate is <strong> ${totalAggregate.toFixed(2)}</strong>`;
 }
