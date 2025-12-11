@@ -1,148 +1,113 @@
-/* Reset defaults */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
-    background-color: white;
+body{
+    background: linear-gradient(135deg, #056837, #0FA34A);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    padding: 10px;
+    height: 100vh;
+    margin: 0 auto;
+    
 }
-
-.container {
-    background-color: #ffffff;
+.container{
+    background-color: white;
+    width: 78%;
     padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-    width: 80%;
-    max-width: 480px;
+    border-radius: 15px;
+    max-width: 300px;
+    justify-content: center;
+     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
 }
-
-/* Header with green background */
-.header {
-    background-color: #2e7d32;
-    padding: 15px;
-    border-radius: 10px 10px 0 0;
-    color: white;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.header h2 {
-    margin-bottom: 5px;
-}
-
-.header p {
-    font-size: 0.95rem;
-}
-
-/* Form rows */
-.input-row {
-    display: inline;
-    width: 50%;
-    align-items: center;
-    margin-bottom: 15px;
-    flex-wrap: wrap; /* allows wrapping on very small screens */
-}
-
-.input-row label {
-    flex: 0 0 120px; /* fixed width for label */
-    margin-right: 10px;
-    font-weight: 600;
-    color: #2e7d32;
-}
-
-.input-row input,
-.input-row select {
-    flex: 1;
-    padding: 10px 12px;
-    border: 1px solid #b2dfdb;
-    border-radius: 8px;
-    font-size: 1rem;
-    transition: all 0.3s ease;
-    width: 10%;
-}
-
-.input-row input:focus,
-.input-row select:focus {
-    outline: none;
-    border-color: #2e7d32;
-    box-shadow: 0 0 5px rgba(46, 125, 50, 0.5);
-}
-
-/* Button */
-button.button {
-    width: 100%;
-    padding: 12px 0;
-    background-color: #2e7d32;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 600;
-    border: none;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: all 0.3s ease;
-}
-
-button.button:hover {
-    background-color: #1b5e20;
-}
-
-/* Result box */
-#resultBox {
+#btn{
+    background-color: #0B8A3B;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
     margin-top: 20px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    text-align: center;
-    color: #1b5e20;
-    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 10px;
+    height: 45px;
+    color: white;
+    font-family: 'inter',sans-serif;
+    font-size: 15px;
+    border: none;
 }
-
-/* Footer */
-.footer {
-    margin-top: 25px;
+.header{
+    background: #0B8A3B;
+    margin-top: -40px;
+    border-radius: 10px 10px 0 0;
     text-align: center;
-    font-size: 0.85rem;
-    color: black;
+    margin-left: -20px;
+    margin-right: -20px;
+    color: white;
+
+}
+.unnAgg{
+    padding-top: 17px;
+    font-family: 'inter',sans-serif;
+    font-size: 23px;
+}
+.unnAggp{
+    margin-top: -12px;
+    padding-bottom: 15px;
+    font-family: 'lato',sans-serif;
+    font-size: 13px;
+}
+#g4, #g1, #g2, #g3, #sitting{
+    width: 49.8%;
+}
+.div1 {
+    display: flex;
+    gap: 80px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.div1 #g1, #g2, #g3, #sitting{
+    border-radius: 4px;
+    height: 23px;
+}
+.div2{
+    display: flex;
+    gap: 90px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    padding-top: 10px;
 }
 a{
     color: red;
+    text-decoration: none;
 }
-i{
-    color: black;
-}
-
-/* Responsive adjustments */
-@media (max-width: 500px) {
-    .input-row label {
-        flex: 0 0 100px;
-        margin-bottom: 5px;
-    }
-
-    .input-row input,
-    .input-row select {
-        flex: 1 0 100%;
-    }
+.olevelLabel{
+    text-align: center;
+    padding-left: 110px;
+    margin-bottom: -4px;
 }
 
-@media (max-width: 380px) {
-    .container {
-        padding: 15px;
-    }
-
-    button.button {
-        font-size: 0.9rem;
-    }
-
+.jamb input{
+    
+    width: 48%;
+    margin-left: 55px;
+    border-radius: 4px;
+    height: 20px;
 }
-
-
+label{
+    font-family: 'serif',sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+#resultBox {
+    display: none;
+     background-color: #0B8A3B;
+     padding: 10px;
+     border-radius: 10px;
+     margin-top: 10px;
+     color: white;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 18px;
+    font-family: 'inter',sans-serif;
+    font-size: 14px;
+}
 
