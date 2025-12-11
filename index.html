@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>UNN Aggregate Checker</title>
-<link rel="stylesheet" href="unn.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNN Aggregate calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap">
 </head>
 <body>
-
-<div class="container">
-  <div class="header">
-    <h2>UNN Aggregate Calculator</h2>
-    <p>Compute your grades and get your aggregate instantly</p>
-  </div>
-
-  <div class="input-row">
-    <label>JAMB Score</label>
-    <input id="jambScore" type="number" placeholder="Enter JAMB score">
-  </div>
-
-  <div class="input-row">
-    <label>Subject 1</label>
-    <select id="g1">
-      <option value="90">A1</option>
+    <div class="container">
+        <!--header content-->
+        <div class="header"><h2 class="unnAgg">UNN Aggregate calculator</h2>
+        <p class="unnAggp">Input grades and instantly get your aggregate</p>
+    </div>
+     <!--jamb content-->
+         <div class="jamb">
+    <label class="lab">JAMB Score
+        <input id="jambInput" type="number">
+    </label>
+    </div>
+    <p class="olevelLabel"> <strong> o'Level Grades</strong></p>
+     <!--subject1 content-->
+     <div class="div1">
+         <label>Subject 1</label>
+        <select name="" id="g1">
+     <option value="90">A1</option>
       <option value="80">B2</option>
       <option value="70">B3</option>
       <option value="60">C4</option>
@@ -31,13 +33,13 @@
       <option value="0">D7</option>
       <option value="0">E8</option>
       <option value="0">F9</option>
-    </select>
-  </div>
-
-  <div class="input-row">
-    <label>Subject 2</label>
-    <select id="g2">
-      <option value="90">A1</option>
+        </select>
+     </div>
+      <!--subject2 content-->
+     <div class="div1">
+        <label> Subject 2</label>
+        <select name="" id="g2">
+             <option value="90">A1</option>
       <option value="80">B2</option>
       <option value="70">B3</option>
       <option value="60">C4</option>
@@ -46,13 +48,13 @@
       <option value="0">D7</option>
       <option value="0">E8</option>
       <option value="0">F9</option>
-    </select>
-  </div>
-
-  <div class="input-row">
-    <label>Subject 3</label>
-    <select id="g3">
-      <option value="90">A1</option>
+        </select>
+     </div>
+     <!--subject3 content-->
+     <div class="div1">
+         <label>Subject 3</label>
+        <select name="" id="g3">
+ <option value="90">A1</option>
       <option value="80">B2</option>
       <option value="70">B3</option>
       <option value="60">C4</option>
@@ -61,13 +63,14 @@
       <option value="0">D7</option>
       <option value="0">E8</option>
       <option value="0">F9</option>
-    </select>
-  </div>
+        </select>
+     </div>
 
-  <div class="input-row">
-    <label>Subject 4</label>
-    <select id="g4">
-      <option value="90">A1</option>
+     <!--subject4 content-->
+     <div class="div1">
+        <label> Subject 4</label>
+        <select name="" id="g4">
+ <option value="90">A1</option>
       <option value="80">B2</option>
       <option value="70">B3</option>
       <option value="60">C4</option>
@@ -76,24 +79,22 @@
       <option value="0">D7</option>
       <option value="0">E8</option>
       <option value="0">F9</option>
-    </select>
-  </div>
+        </select>
+     </div>
+     <!--Number content-->
+     <div class="div2">
+        <label>sitting's</label>
+        <select name="" id="sitting">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            
+        </select>
+     </div>
 
-  <div class="input-row">
-    <label>No of sitting</label>
-    <select id="sitting">
-      <option value="1">1</option>
-      <option value="2">2</option>
-    </select>
-  </div>
-   <div id="resultBox"></div>
-
-  <button class="button" onclick="calculate()">Calculate Aggregate</button>
-
-  <div class="footer">
-    <i>developed</i> by <b><strong> <a href="https://wa.me/9016588844">Klint-Techz</a> </strong></b>
-  </div>
-</div>
-<script src="unn.js"></script>
+     <button onclick="calculate()" id="btn">Calculate Aggregate</button>
+     <div id="resultBox"></div>
+     <footer><i>developed</i> by <a href="https://wa.me/9016588844"><strong>klint-techz</strong></a> </footer>
+    </div>
+<script src="app.js"></script>
 </body>
 </html>
