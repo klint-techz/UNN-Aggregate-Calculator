@@ -73,11 +73,10 @@ body{
 }
 footer{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 a{
     color: red;
-    text-decoration: none;
 }
 .olevelLabel{
     text-align: center;
@@ -113,3 +112,4 @@ label{
     font-family: 'inter',sans-serif;
     font-size: 14px;
 }
+
