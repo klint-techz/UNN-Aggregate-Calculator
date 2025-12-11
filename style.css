@@ -5,6 +5,7 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0 auto;
+    padding: 20px;
     
 }
 .container{
@@ -115,3 +116,4 @@ label{
     font-family: 'inter',sans-serif;
     font-size: 14px;
 }
+
